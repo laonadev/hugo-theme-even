@@ -14,12 +14,11 @@
 
 <div class="copyright">
   <span class="power-by">
-    {{ (printf (T "powered") `<a class="hexo-link" href="https://gohugo.io">Hugo</a>`) | safeHTML }}
+    {{ (printf (T "powered") `<a class="hexo-link" href="https://gohugo.io">Hugo</a>/<a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>`) | safeHTML }}
   </span>
   <span class="division">|</span>
-  <span class="theme-info">
-    {{ T "theme" }} - 
-    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  <span class="domain-by">
+    由 <a class="hexo-link" href="https://www.paomi.com/">泡米网</a> 赞助域名
   </span>
 
   {{ if .Site.Params.busuanzi.enable -}}
